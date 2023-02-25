@@ -31,3 +31,28 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    margin: 0 15px;
+  }
+  li.slick-active {
+    button {
+      background-color: #ffef35;
+    }
+  }
+
+  button {
+    background-color: $title;
+    border: none;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    font-size: 0;
+  }
+}
