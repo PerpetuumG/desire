@@ -444,3 +444,84 @@
     color: #5a5a5a;
   }
 }
+
+.works-path {
+  margin: 79px 0 29px;
+
+  &__title {
+    text-align: center;
+    @extend %title-font;
+    color: $title;
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 40px;
+  }
+
+  &__items-box {
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid rgba($title, 0.7);
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      background-color: $title;
+      border-radius: 50%;
+    }
+  }
+
+  &__item {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+
+    &-title {
+      margin-left: 13px;
+      @extend %title-font;
+      color: $title;
+    }
+
+    &-text {
+      margin-top: 13px;
+    }
+  }
+  &__item--production {
+    margin-left: 317px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      bottom: 0;
+      left: 0;
+      background-color: rgba($title, 0.7);
+    }
+  }
+  &__item--consultation,
+  &__item--production {
+    padding-bottom: 38px;
+  }
+  &__item--measurements {
+    padding-top: 38px;
+    margin-left: 305px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      top: 0;
+      left: 0;
+      background-color: rgba($title, 0.7);
+    }
+  }
+}
