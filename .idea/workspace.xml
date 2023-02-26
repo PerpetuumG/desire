@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dd3a542c-716c-479e-a752-caaf8be7adea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_libs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677244940099</updated>
-      <workItem from="1677244944416" duration="49158000" />
+      <workItem from="1677244944416" duration="52884000" />
     </task>
     <servers />
   </component>
