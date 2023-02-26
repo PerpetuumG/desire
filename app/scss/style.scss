@@ -948,3 +948,127 @@
     }
   }
 }
+
+.blog {
+  padding: 60px 0 100px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__category {
+    margin-bottom: 36px;
+
+    &-title {
+      margin-bottom: 15px;
+      color: $title;
+      @extend %title-font;
+      line-height: 23px;
+    }
+
+    &-item {
+      margin-bottom: 12px;
+    }
+
+    &-link {
+      color: #5a5a5a;
+    }
+  }
+
+  &__recent-posts {
+    margin-bottom: 40px;
+
+    &__title {
+      margin-bottom: 24px;
+      color: $title;
+      @extend %title-font;
+      line-height: 23px;
+    }
+
+    &__item {
+      margin-bottom: 11px;
+
+      &-title {
+        display: block;
+        color: inherit;
+      }
+      &-date,
+      &-author {
+        font-size: 14px;
+        color: #a1a1a1;
+      }
+    }
+  }
+
+  &__tags {
+    margin-bottom: 50px;
+
+    &-title {
+      margin-bottom: 24px;
+      color: $title;
+      @extend %title-font;
+      line-height: 23px;
+    }
+
+    &-link {
+      color: #8f8d8d;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 0 16px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+      display: inline-block;
+      border: 1px solid rgba(#454647, 0.5);
+      border-radius: 14%;
+    }
+  }
+
+  &__social {
+    display: flex;
+
+    &-item {
+      margin-right: 20px;
+    }
+  }
+}
+
+.aside {
+  width: 350px;
+  margin-left: 30px;
+
+  &__search {
+    position: relative;
+    margin-bottom: 40px;
+
+    &-input {
+      padding: 6px 45px 6px 18px;
+      border: 1px solid rgba($title, 0.7);
+      border-radius: 20px;
+      display: block;
+      width: 100%;
+
+      &::placeholder {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color: #a1a1a1;
+      }
+    }
+
+    &-btn {
+      border: none;
+      background-color: transparent;
+      position: absolute;
+      top: 10px;
+      right: 13px;
+      cursor: pointer;
+    }
+
+    &-img {
+      width: 17px;
+      height: 17px;
+    }
+  }
+}
