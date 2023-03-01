@@ -77,13 +77,13 @@ $(function () {
       '<button type="button" class="article-slider__arrow article-slider__arrowright"><image src="images/arrow-slide-right.svg" alt="arrow right"></button>',
   });
 
-  var mixer = mixitup('.gallery__inner', {
+  if ($(window).width() <= 651) {
+    $('.works-path__item--measuring').appendTo($('.works-path__items-box'));
+  }
+
+  let mixer = mixitup('.gallery__inner', {
     load: {
       filter: '.living',
     },
   });
-
-  if ($(window).width() <= 650) {
-    $('.works-path__item--measurements').appendTo($('.works__path__items-box'));
-  }
 });
